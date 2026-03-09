@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Manager - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+    <div class="login-page-container">
+        <div class="login-card signup-card">
+            <div class="login-logo">
+                <i class="fab fa-spotify"></i>
+                <span>SongManager</span>
+            </div>
+
+            <h1 class="login-title"><center>Create Account</center></h1>
+            <p class="login-subtitle">Start managing your playlists and songs today.</p>
+
+            <form class="login-form">
+                <label for="username" class="login-label">Username</label>
+                <input type="text" id="username" name="username" class="login-input" placeholder="Choose a username" required>
+
+                <label for="email" class="login-label">Email Address</label>
+                <input type="email" id="email" name="email" class="login-input" placeholder="Enter your email" required>
+
+                <label for="password" class="login-label">Password</label>
+                <input type="password" id="password" name="password" class="login-input" placeholder="Create a password" required>
+
+                <label for="confirm-password" class="login-label">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" class="login-input" placeholder="Confirm your password" required>
+
+                <div class="terms-checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" class="terms-label">
+                        I agree to the <a href="#" class="terms-link">Terms of Service</a> and <a href="#" class="terms-link">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="login-btn">Create Account</button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="signup-row">
+                    <span class="signup-text">Already have an account?</span>
+                    <a href="login.html" class="signup-link">Log in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
